@@ -1,0 +1,104 @@
+{{ define "header" }}
+    <header>
+            <img src="images/whole_dark_bg.svg" height="30" width="300"></img>
+            <nav>
+                <a href="/consulting">Consulting</a>
+                <a href="/workshop">Workshops</a>
+            </nav>
+    </header>
+    <div id="hero">
+            <h3>Control your infrastructure</h3>    
+            <h3>exposure</h3>
+            <img src="images/plots.svg" height="300" width="300"></img>
+            <p>Rekon performs extensive and modern reconnaissance</p>
+            <p>given a domain name. Get comprehensive reports, graphs</p>
+            <p>and analysis of your technical assets.</p>
+    </div>
+{{ end }}
+
+{{ define "main" }}
+        <section class="grid-container">
+                <div class="grid-items">
+                    <h3>Reduce costs</h3>
+                    <p>As your offer and company grow, it can be hard to keep track of the relevance of your all assets and technical resources.</p>
+                    <p>You should be able to detect and remove obsolete machines, services, subdomains, etc.</p>
+                </div>
+                <div class="grid-items">
+                    <h3>Increase security</h3>
+                    <p>Opportunistic attacks often escalate through a misconfiguration, obsolete services or subdomains, etc.</p>
+                    <p>You should constantly ensure a minimal attack surface and exposure!</p>
+                </div>
+                <div class="grid-items">
+                    <h3>Simplify configuration</h3>
+                    <p>It is key to understand the mapping and relationships of your various IP addresses, providers, domains, subdomains, etc.<p>
+                    <p>Your development team has to verify their products relies on a modern and up to date configuration.</p>
+                </div>
+        </section>
+
+        <section class="banner-container">
+            <div class="banner-item banner-item-up-left">
+                <h1>As you scale up your company, stay on top of your</h1>
+                <h1>running services and web configuration.</h1>
+            </div>
+            <div class="banner-item banner-item-bottom-left">
+                <h1>Ensure you have the minimal exposure</h1>
+                <h1>with and modern and up to date configuration.</h1>
+            </div>
+            <div class="banner-item banner-item-right">
+                <h1>Include Rekon reporting in your internal process:</h1>
+                <ul>
+                    <li><h2>Continuous Deployment</h2></li>
+                    <li><h2>Continuous Security</h2></li>
+                    <li><h2>Mail Notifications</h2></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid-container">
+            <div class="grid-items">
+                <h3>Mapping</h3>
+                <p>From a single domain name we provide:</p>
+                <ul>
+                    <li>associated subdomains, aliases, etc.</li>
+                    <li>IP addresses & active ports</li>
+                    <li>providers: CDN, Cloud, etc.</li>
+                    <li>services: HTTP(S), FTP, SSH, etc.</li>
+                    <li>load balancing and reverse proxying logic</li>
+                    <li>etc.</li>
+                </ul>
+            </div>
+            <div class="grid-items">
+                <h3>Analysis</h3>
+                <p>From the gathered resources we run a full analysis:</p>
+                <ul>
+                    <li>proper HTTP services setup: redirection, headers, etc.</li>
+                    <li>TLS: certificates, expiration, etc.</li>
+                    <li>SSH: weak configuration, obsolete version, etc.</li>
+                    <li>unknown running services</li>
+                    <li>subdomains takeovers, typosquatting</li>
+                    <li>etc.</li>
+                </ul>
+            </div>
+            <div class="grid-items">
+                <h3>Reporting</h3>
+                <p>A comprehensive report is then accessible:</p>
+                <ul>
+                    <li>overview of your services and components</li>
+                    <li>graphs & data visualizations of your infrastructure</li>
+                    <li>flags for potential issues & recommendations</li>
+                    <li>executive summaries in PDF</li>
+                    <li>CDD (<i>Customer Due Diligence</i>) through summary reports</li>
+                    <li>etc.</li>
+                </ul>
+            </div>
+        </section>
+{{ end }}
+
+{{ define "footer" }}
+        <footer>
+            <img src="images/reduced_dark_bg.svg" height="80" width="200"></img>
+            <nav>
+                <a href="/about">About</a>
+                <a href="/terms-and-privacy">Terms & Privacy</a>
+            </nav>
+{{ end }}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #F4F4F4;
+}
+
+header, footer {
+    display: flex;
+    background-color: #00326F;
+    padding: 1em 0 1em 0;
+    justify-content: space-evenly;
+}
+
+footer {
+    justify-content: center;
+}
+
+header nav {
+    margin-top: 0.5em; 
+}
+
+footer nav {
+    margin-top: 2em; 
+}
+
+nav a {
+    color: #F4F4F4;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+}
+
+a:hover {
+    color: #F2545B;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero h3 {
+    font-weight: 500;
+    line-height: 0.2em;
+    font-size: 4em;
+}
+
+#hero p {
+    line-height: 0.1em;
+    font-weight: 0;
+    font-size: 1.2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 5em 1em 5em 1em;
+}
+
+.grid-items {
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    border-radius: .7rem;
+    box-shadow: 0 0 12px 0 rgba(28,28,29,.4);
+}
+
+.grid-items h3 {
+    margin-top: 0em;
+    color: #574AE2;
+    line-height: 1em;
+    text-align: center;
+}
+
+.banner-container {
+    display: grid;
+    grid-column-gap: 8em;
+    padding: 2em 4em 2em 4em;
+    grid-template-columns: 50% 50%;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    color: #F4F4F4;
+}
+
+.banner-item {
+    font-weight: 100;
+    line-height: 0.4em;
+}
+
+.banner-item ul {
+    margin-top: 2em;
+}
+
+.banner-item-up-left {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+.banner-item-bottom-left {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    text-align: right;
+}
+
+.banner-item-right {
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
