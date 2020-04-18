@@ -1,18 +1,22 @@
-body {
+html, body {
+    height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
     font-family: 'Lexend Deca', sans-serif;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
+    color: #717171;
 }
 
 header, footer {
     display: flex;
+    padding: 1.2rem 1rem 1.5rem 0;
     background-color: #00326F;
-    padding: 1em 0 1em 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 footer {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 header nav {
@@ -24,30 +28,43 @@ footer nav {
 }
 
 nav a {
-    color: #F4F4F4;
+    color: #f4f4f4;
     font-weight: 700;
     text-decoration: none;
     margin: 0 1em 0 1em;
 }
 
 a:hover {
-    color: #F2545B;
+    border-bottom: 2px solid #f4f4f4;
 }
 
 #hero {
-    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
-#hero h3 {
-    font-weight: 500;
-    line-height: 0.2em;
-    font-size: 4em;
+.hero-message {
+    flex-basis: 35rem;    
 }
+
+.hero-image {
+    flex-basis: auto;
+}
+
 
 #hero p {
-    line-height: 0.1em;
-    font-weight: 0;
-    font-size: 1.2em;
+    font-size: 120%;
+    line-height: 1.5rem;
+    text-shadow: rgba(0,0,0,0.1);
+}
+
+#hero h1 {
+    font-size: 200%;
+    font-weight: 100;
+    color: rgba(0,50,111, 0.8);
 }
 
 .grid-container {
@@ -65,7 +82,7 @@ a:hover {
 
 .grid-items h3 {
     margin-top: 0em;
-    color: #574AE2;
+    color:    rgba(0,50,111, 0.8);
     line-height: 1em;
     text-align: center;
 }
